@@ -14,8 +14,8 @@ function App() {
 
       <Routes>
         < Route path = '/' element = {< UserHome />} />
-        < Route path = '/register' element = {< UserAuth />} />
-        < Route path = '/login' element = {< UserAuth />} />
+        < Route path = '/register' element = {< UserAuth register = {true} />} />
+        < Route path = '/login' element = {< UserAuth register = {false} />} />
 
         < Route path = '*' element = {< PageNotFound />} />
       </Routes>
