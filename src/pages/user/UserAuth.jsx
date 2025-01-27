@@ -3,6 +3,8 @@ import logo from '../../assets/plan-Logo.png'
 import demo from '../../assets/phone-demo.png'
 import loginImg from '../../assets/loginLogo.png'
 import registerImg from '../../assets/registerLogo.png'
+import ricebowl from '../../assets/ricebowl.png'
+import { Link } from 'react-router-dom'
 
 function UserAuth({ register }) {
     const [isFocused, setIsFocused] = useState(false);
@@ -34,8 +36,13 @@ function UserAuth({ register }) {
                         { !register ?
                         <>
                         {/* loginImg */}
-                        <div style={{height: '40px', width: '100px', background: '#00bf63', marginBottom: 'auto'}} className='px-3 py-2 rounded-5 d-flex align-items-center justify-content-center'>
-                            <img src={loginImg} alt="" style={{height: 'auto', width: '100%'}} />
+                        <h6>New here?</h6>
+                        <Link to = '/register'><div style={{height: '40px', width: '100px', background: '#00bf63', marginBottom: 'auto'}} className='px-3 py-2 rounded-5 d-flex align-items-center justify-content-center'>
+                            <img src={registerImg} alt="" style={{height: 'auto', width: '100%'}} />
+                        </div></Link>
+
+                        <div style={{height: '200px', width: '200px', marginBottom: 'auto'}}>
+                            <img src={ricebowl} alt="" style={{width: '100%', height: '100%'}} />
                         </div>
                         
                         {/* loginForm */}
@@ -47,8 +54,13 @@ function UserAuth({ register }) {
                         :
                         <>
                         {/* registerImg */}
-                        <div style={{height: '40px', width: '100px', background: '#00bf63', marginBottom: 'auto'}} className='px-3 py-2 rounded-5 d-flex align-items-center justify-content-center'>
-                            <img src={registerImg} alt="" style={{height: 'auto', width: '100%'}} />
+                        <h6>Already, a user?</h6>
+                        <Link to = '/login'><div style={{height: '40px', width: '100px', background: '#00bf63', marginBottom: 'auto'}} className='px-3 py-2 rounded-5 d-flex align-items-center justify-content-center'>
+                            <img src={loginImg} alt="" style={{height: 'auto', width: '100%'}} />
+                        </div></Link>
+
+                        <div style={{height: '200px', width: '200px', marginBottom: 'auto'}}>
+                            <img src={ricebowl} alt="" style={{width: '100%', height: '100%'}} />
                         </div>
                         
                         {/* registerForm */}
