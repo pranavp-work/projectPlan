@@ -5,6 +5,8 @@ import MostOrderedDishes from '../../components/user/MostOrderedDishes'
 import sectionOne from '../../assets/sectionImages/sectionOneImg.png'
 import sectionTwo from '../../assets/sectionImages/sectionTwoImg.png'
 import sectionThree from '../../assets/sectionImages/sectionThreeImg.png'
+import UserHeader from '../../components/user/UserHeader'
+import UserFooter from '../../components/user/UserFooter'
 
 function UserHome() {
 
@@ -23,6 +25,8 @@ function UserHome() {
 
   return (
     <>
+    < UserHeader />
+
     {/* section 1 */}
       <div className="row px-5 py-5" style={{height: '75vh', width: '100%'}}>
         <div className="col-md-6 d-flex justify-content-start align-items-center" style={{background: '#00bf63'}}>
@@ -124,6 +128,7 @@ function UserHome() {
         </div>
       </div>
 
+      < UserFooter />
     </>
   )
 }

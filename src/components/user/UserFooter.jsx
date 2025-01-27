@@ -41,7 +41,7 @@ function UserFooter() {
             </div>
             <hr />
 
-            <p style={{fontSize: '10px', color: 'grey'}} className='text-center'>By continuing past this page, you agree to our Terms of service, Cookie policy, Privacy policy and Content policies. All trademarks are properties of their respective owners. 2016-2021 © Blink Commerce Pvt Ltd. All rights reserved</p>
+            <p style={{fontSize: '10px', color: 'grey'}} className='text-center'>By continuing past this page, you agree to our Terms of service, Cookie policy, Privacy policy and Content policies. All trademarks are properties of their respective owners. 2025 © Pranav P. All rights reserved</p>
         </div>
     </>
   )
