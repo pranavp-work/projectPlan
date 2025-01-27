@@ -1,5 +1,17 @@
 logo : #00bf63 green
 
+Don't know where to eat or which dishes to try next? Take a chance on something new with this random restaurant and cafe generator, and let the roulette pick a spot or dish from your preferred cuisine!
+
+Foodie Roulette: Where Should I Eat/What Should I Order?
+
+body :
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,93,8,1) 100%, rgba(225,211,255,1) 100%, rgba(0,0,0,1) 100%); 
+
+header :
+background: rgb(0,8,3);
+background: linear-gradient(90deg, rgba(0,8,3,1) 0%, rgba(2,77,9,1) 100%, rgba(225,211,255,1) 100%, rgba(0,0,0,1) 100%); 
+
 ### **What We Offer**
 
 #### **Health & Hygiene**
